@@ -28,3 +28,16 @@
   content: "";
   padding: 0;
 }
+
+.top-left {
+  position: absolute;
+  left: 30px;
+  top: 60px;
+}
+
+.top-right {
+  position: absolute;
+  right: 100px;
+  top: 60px;
+  float: right;
+}

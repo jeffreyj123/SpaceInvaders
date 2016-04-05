@@ -9,6 +9,9 @@ angular.module('myApp.view1', ['ngRoute'])
   });
 }])
 
-.controller('View1Ctrl', [function() {
-
+.controller('View1Ctrl', ['$scope', '$window', function($scope, $window) {
+	$scope.windowWidth = 500;
+	$scope.gameHeight = 600;
+	$scope.score = 0;
+	$scope.lifesCount = 3;
 }]);
